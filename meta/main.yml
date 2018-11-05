@@ -42,8 +42,8 @@ galaxy_info:
     # NOTE: A tag is limited to a single word comprised of
     # alphanumeric characters. Maximum 20 tags per role.
 dependencies:
-  - src: https://github.com/mGageTechOps/ansible-role-cfn-iam-role
-    version: 0.0.5
+  - src: https://github.com/IDS-Inc/ansible-role-cfn-iam-role
+    version: 1.0.0
     name: ansible-role-cfn-iam-role
     when: ecs_service_iam_role is not defined and 
           ecs_service_elb_name is defined
